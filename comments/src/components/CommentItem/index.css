@@ -1,0 +1,78 @@
+.amber {
+    background-color: #f59e0b;
+  }
+  
+  .blue {
+    background-color: #0b69ff;
+  }
+  
+  .orange {
+    background-color: #f97316;
+  }
+  
+  .emerald {
+    background-color: #10b981;
+  }
+  
+  .teal {
+    background-color: #14b8a6;
+  }
+  
+  .red {
+    background-color: #b91c1c;
+  }
+  
+  .light-blue {
+    background-color: #0ea5e9;
+  }
+  
+  /* Write your CSS here */
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .initialcontainer {
+    font-size: 25px;
+    background-color: #b91c1c;
+    color: white;
+    padding: 5px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    text-align: center;
+  }
+  
+  .like-icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+  }
+  .delete-icon {
+    width: 25px;
+    height: 25px;
+  }
+  .comment-container {
+    width: 80%;
+    border: 1px solid gray;
+    padding: 20px;
+  }
+  .person-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .list-container {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  

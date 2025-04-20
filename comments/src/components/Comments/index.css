@@ -1,0 +1,23 @@
+/* Write your CSS here */
+
+.bg-container {
+    height: 100vh;
+  }
+  
+  .top-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .form-section {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-container {
+    width: 300px;
+  }
+  .unorderedlist {
+  }
+  
