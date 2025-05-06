@@ -1,0 +1,35 @@
+/* Write your CSS here */
+
+.thumbnailUrl {
+    width: 280px;
+    height: 200px;
+  }
+  
+  .movieItemButton {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  .trigger-button {
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+  }
+  
+  .popup-content {
+    width: 700px;
+    height: 450px;
+  }
+  .closeIconButtonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .videoPlayerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
