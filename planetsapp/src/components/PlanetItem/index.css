@@ -1,0 +1,30 @@
+/* Write your CSS here */
+
+.planetImage {
+    width: 500px;
+    height: 400px;
+  }
+  
+  .backgroundContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .planetItemContainer {
+    width: 600px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .planetName {
+    color: white;
+  }
+  .planetDescription {
+    color: white;
+  }
+  
