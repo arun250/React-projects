@@ -1,0 +1,53 @@
+.bodyContainer {
+    background-color: #f5d0fe;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .textInputContainer {
+    background-color: #ffffff;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+  }
+  
+  @media (min-width: 768px) {
+    .textInputContainer {
+      background-color: #ffffff;
+      width: 500px;
+      height: 200px;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+    }
+  }
+  
+  .userInput {
+    width: 250px;
+    height: 35px;
+    outline: none;
+    margin-right: 10px;
+    border: 1px solid #323f4b;
+    color: #323f4b;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+  }
+  .saveButton {
+    background-color: #d946ef;
+    padding: 5px 10px 5px 10px;
+    color: #ffffff;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+  }
+  .inputContainer {
+    display: flex;
+  
+    padding: 25px;
+  }
+  
