@@ -1,0 +1,56 @@
+.textContainer {
+    padding: 20px;
+    width: 45%;
+  }
+  
+  .CourseItemCard {
+    border: 1px solid grey;
+    box-shadow:
+      0 4px 8px 0 rgba(0, 0, 0, 0.2),
+      0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 90%;
+    height: 500px;
+    display: flex;
+  }
+  
+  .courseItemImage {
+    width: 45%;
+    height: 500px;
+  }
+  
+  .courseDescription {
+    font-size: 22px;
+    line-height: 1.5;
+    font-family: 'Roboto';
+  }
+  .CourseItemDetailsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .failureContianer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .failureViewImage {
+    width: 400px;
+    height: 400px;
+  }
+  .retryButton {
+    color: white;
+    background-color: #4656a1;
+    padding: 5px 10px 5px 10px;
+    border-radius: 8px;
+    border: none;
+    font-size: 18px;
+  }
+  .wrongheading {
+    color: #1e293b;
+    font-size: 20px;
+  }
+  
