@@ -1,0 +1,19 @@
+.homeContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #152850;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .digitalCard {
+    width: 800px;
+    height: 500px;
+  }
+  
+  .homeHeading {
+    font-size: 60px;
+    color: white;
+  }
+  
